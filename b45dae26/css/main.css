@@ -135,3 +135,12 @@ footer {
         /* increases the carousel height so it looks good on phones */
     }
 }
+
+/* img-responsive was missing from this file bundled with angular sample */
+}
+.img-responsive
+{
+  display: block;
+  max-width: 90%;
+  height: auto;
+}
