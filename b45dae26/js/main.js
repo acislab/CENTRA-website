@@ -19,13 +19,15 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // Pages
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-    .when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
-    .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
-    .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
-    .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+    .when("/members", {templateUrl: "partials/members.html", controller: "PageCtrl"})
+    .when("/application_domains", {templateUrl: "partials/application_domains.html", controller: "PageCtrl"})
+    .when("/it_research", {templateUrl: "partials/it_research.html", controller: "PageCtrl"})
+	.when("/students", {templateUrl: "partials/students.html", controller: "PageCtrl"})
+        .when("/news", {templateUrl: "partials/news.html", controller: "PageCtrl"})
+    .when("/resources", {templateUrl: "partials/resources.html", controller: "PageCtrl"})
     // Blog
-    .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
-    .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl"})
+//    .when("/news", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
+//    .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
