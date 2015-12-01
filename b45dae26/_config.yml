@@ -49,7 +49,7 @@ JB :
   #
   #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
   #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
-BASE_PATH : http://acislab.github.io/CENTRA-website
+#BASE_PATH : http://acislab.github.io/CENTRA-website
 
   #
   # CAUTION:
