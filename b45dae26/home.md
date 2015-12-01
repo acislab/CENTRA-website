@@ -1,0 +1,13 @@
+---
+layout: page
+title: "Home"
+description: ""
+---
+{% include JB/setup %}
+
+![](us-ea-centra-logo.png){: .img-responsive }
+
+## Meetings and News
+
+The kickoff meeting for the CENTRA activities is scheduled to take place in March 2015 in Taiwan.
+
