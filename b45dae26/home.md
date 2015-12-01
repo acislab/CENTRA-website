@@ -9,5 +9,5 @@ description: ""
 
 ## Meetings and News
 
-The kickoff meeting for the CENTRA activities is scheduled to take place in March 2015 in Taiwan.
+The kickoff meeting for the CENTRA activities is scheduled to take place in March 2016 in Taiwan.
 
