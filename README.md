@@ -52,6 +52,17 @@ The kickoff meeting for the CENTRA activities is scheduled to take place in Marc
 
 ```
 
+Advanced styling (via Bootstrap) can frequently be applied by adding the appropriate class immediately following
+the markdown element with the appropriate bootstrap class:
+
+```markdown
+| col1 | col2 |
+| ---- | ---- |
+| data 1 | data 2 |
+{: class="table" }
+```
+
+
 
 # Jekyll-Bootstrap
 
