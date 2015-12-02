@@ -5,7 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-![](us-ea-centra-logo.png){: .img-responsive }
+![](us-ea-centra-logo.png){: class="img-responsive" }
 
 ## Meetings and News
 
