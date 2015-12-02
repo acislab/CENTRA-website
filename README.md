@@ -52,7 +52,7 @@ The kickoff meeting for the CENTRA activities is scheduled to take place in Marc
 
 ```
 
-Advanced styling (via Bootstrap) can frequently be applied by adding special syntax in curly braces immediately after the element.
+Advanced styling can frequently be applied by adding special syntax in curly braces immediately after the element.
 In the previous example, the Bootstrap class named "img-responsive" was applied to the image.
 
 In the following example, the Bootstrap class named "table" is applied to the table.
