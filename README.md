@@ -13,6 +13,7 @@ Note: The github editor will not understand the Jekyll yaml front matter or the 
 4. When finished, click the "Commit Changes" button near the bottom of the page, also hopefully supplying a meaningful commit message. Use the default choice "Commit directly to the gh-pages branch".
 5. Wait a few moments (usually less than 15 seconds) for the content to be parsed, processed, and published before refreshing the site in your browser.
 
+Adding new navigation menu items and whole new pages is a bit more complicated, some understanding Jekyll and Bootstrap is recommended.
 
 ## More Details
 
