@@ -1,14 +1,16 @@
 # US-EA CENTRA website
 
+http://useacentra.org/
 
 ## To Update Content:
 
 Browse the repository in github.
 
-1. Find the Markdown file (.md) that corresponds to the page that you wish to edit.
-2. Click on the file to view the contents.
-3. Click the "Edit" button that has an icon of a pencil on it. Edit the content. Note: The github editor will not understand the Jekyll yaml front matter or the Liquid template syntax, so you will not have WYSIWYG preview capability.
-4. When finished, click "Commit Changes" near the bottom of the page, also hopefully supplying a meaningful commit message. Use the default choice "Commit directly to the gh-pages branch".
+1. Find the Markdown file (.md) that corresponds to the page you wish to edit.
+2. Click on the filename to view the contents.
+3. Click the "Edit this file" button which has an icon of a pencil on it. Edit the content by writing Markdown.
+Note: The github editor will not understand the Jekyll yaml front matter or the Liquid template syntax, so you will not have full WYSIWYG preview capability.
+4. When finished, click the "Commit Changes" button near the bottom of the page, also hopefully supplying a meaningful commit message. Use the default choice "Commit directly to the gh-pages branch".
 5. Wait a few moments (usually less than 15 seconds) for the content to be parsed, processed, and published before refreshing the site in your browser.
 
 
@@ -29,7 +31,7 @@ allows dynamic properties via the Liquid templating language.
 For example, the "index.html" is generated from the "index.md" file that contains the yaml front matter
 and the Jekyll-Bootstrap helper near the top.
 
-The content is only an image logo (with special sauce to use bootstrap responsive features),
+The content is only an image logo (with some special sauce to use bootstrap responsive features),
 a level 2 heading, and a paragraph:
 
 
