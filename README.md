@@ -32,7 +32,7 @@ allows dynamic properties via the Liquid templating language.
 For example, the "index.html" is generated from the "index.md" file that contains the yaml front matter
 and the Jekyll-Bootstrap helper near the top.
 
-The content is only an image logo (with some special sauce to use bootstrap responsive features),
+The meaningful content of index.md is an image logo (with some special sauce to use bootstrap responsive features),
 a level 2 heading, and a paragraph:
 
 
@@ -53,7 +53,9 @@ The kickoff meeting for the CENTRA activities is scheduled to take place in Marc
 ```
 
 Advanced styling (via Bootstrap) can frequently be applied by adding the appropriate class immediately following
-the markdown element with the appropriate bootstrap class:
+the markdown element with special syntax in curly braces. In the previous example, the Bootstrap class was named "img-responsive".
+
+In the following example, the bootstrap class is named "table".
 
 ```markdown
 |  col1  |  col2  |
@@ -61,12 +63,6 @@ the markdown element with the appropriate bootstrap class:
 | data 1 | data 2 |
 {: class="table" }
 ```
-Which makes a table that looks like:
-
-|  col1  |  col2  |
-| ------ | ------ |
-| data 1 | data 2 |
-{: class="table" }
 
 
 # Jekyll-Bootstrap
