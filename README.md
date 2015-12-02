@@ -29,10 +29,10 @@ https://guides.github.com/features/mastering-markdown/
 Beyond a standard Markdown file, Jekyll requires additional yaml "front matter" in the header area and also
 allows dynamic properties via the Liquid templating language. 
 
-For example, the "index.html" is generated from the "index.md" file that contains the yaml front matter
+For example, the site's "index.html" is generated from the "index.md" file that contains yaml front matter
 and the Jekyll-Bootstrap helper near the top.
 
-The meaningful content of index.md is an image logo (with some special sauce to use bootstrap responsive features),
+The meaningful content of index.md in this example is an image logo (with some special sauce to use bootstrap responsive features),
 a level 2 heading, and a paragraph:
 
 
@@ -52,10 +52,10 @@ The kickoff meeting for the CENTRA activities is scheduled to take place in Marc
 
 ```
 
-Advanced styling (via Bootstrap) can frequently be applied by adding the appropriate class immediately following
-the markdown element with special syntax in curly braces. In the previous example, the Bootstrap class was named "img-responsive".
+Advanced styling (via Bootstrap) can frequently be applied by adding special syntax in curly braces immediately after the element.
+In the previous example, the Bootstrap class named "img-responsive" was applied to the image.
 
-In the following example, the bootstrap class is named "table".
+In the following example, the Bootstrap class named "table" is applied to the table.
 
 ```markdown
 |  col1  |  col2  |
