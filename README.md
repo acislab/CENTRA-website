@@ -1,3 +1,52 @@
+# US-EA CENTRA website
+
+Most of the content source files are written in Markdown and then processed by Jekyll.
+
+Markdown is simple for humans to write (no open and close tags like HTML) but has only limited formatting options.
+
+See:
+
+https://guides.github.com/features/mastering-markdown/
+
+
+Beyond a standard Markdown file, Jekyll requires additional yaml "front matter" in the header area and also
+allows dynamic properties via the Liquid templating language. 
+
+For example, the "index.html" is generated from the "index.md" file that contains the yaml front matter,
+includes the Jekyll-Bootstrap helper near the top.
+
+The content is only an image logo (with special sauce to use bootstrap responsive features),
+a level 2 heading, and a paragraph:
+
+
+```markdown
+---
+layout: page
+title: "Home"
+description: ""
+---
+{% include JB/setup %}
+
+![](us-ea-centra-logo.png){: .img-responsive }
+
+## Meetings and News
+
+The kickoff meeting for the CENTRA activities is scheduled to take place in March 2016 in Taiwan.
+
+```
+
+## To Update Content:
+
+Browse the repository in github.
+
+1. Find the Markdown file (.md) that corresponds to the page that you wish to edit.
+2. Click on the file to view the contents.
+3. Click the "Edit" button that has an icon of a pencil on it. Edit the content. Note: The github editor will not understand the Jekyll yaml front matter or the Liquid template syntax, so you will not have WYSIWYG preview capability.
+4. When finished, click "Commit Changes" near the bottom of the page, also hopefully supplying a meaningful commit message. Use the default choice "Commit directly to the gh-pages branch".
+5. Wait a few moments (usually less than 15 seconds) for the content to be parsed, processed, and published before refreshing the site in your browser.
+
+
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
@@ -12,67 +61,7 @@ For all usage and documentation please see: <http://jekyllbootstrap.com>
 
 **NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
 However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Milestones
-
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
-
-### GOALS
-
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
-
-
-### Bugs
-
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
-
-### Features
-
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
-
-### TODOS
-
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
-
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
 
 **Jekyll-Bootstrap Documentation Website.**
 
 The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
