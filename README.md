@@ -44,7 +44,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-![](us-ea-centra-logo.png){: .img-responsive }
+![](us-ea-centra-logo.png){: class="img-responsive" }
 
 ## Meetings and News
 
@@ -56,12 +56,17 @@ Advanced styling (via Bootstrap) can frequently be applied by adding the appropr
 the markdown element with the appropriate bootstrap class:
 
 ```markdown
-| col1 | col2 |
-| ---- | ---- |
+|  col1  |  col2  |
+| ------ | ------ |
 | data 1 | data 2 |
 {: class="table" }
 ```
+Which makes a table that looks like:
 
+|  col1  |  col2  |
+| ------ | ------ |
+| data 1 | data 2 |
+{: class="table" }
 
 
 # Jekyll-Bootstrap
