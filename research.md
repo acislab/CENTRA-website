@@ -17,4 +17,5 @@ The related middleware research seeks solutions for software-defined data sharin
 
 ### Testbeds and Resources
 
-TBD
+[PRAGMA-ENT](https://github.com/pragmagrid/pragma_ent/wiki)
+[JOSE](http://www.nict.go.jp/en/nrh/nwgn/jose.html)
