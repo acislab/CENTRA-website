@@ -64,6 +64,39 @@ In the following example, the Bootstrap class named "table" is applied to the ta
 {: class="table" }
 ```
 
+# More examples
+
+Note that the "advanced" styling options are optional and specific to the Bootstrap theme currently being used by *this* site.
+
+## Links
+
+Any http web link will end up as a clickable link in the output. To give a link a "friendly name" you would use the extra style markup:
+
+```markdown
+This is a link to the [ACIS website](http://acis.ufl.edu).
+```
+
+Will look something like:
+
+This is a link to the [ACIS website](http://acis.ufl.edu).
+
+
+## Images
+
+An image can be added with the following syntax, where the "Alt Text" is optional and the "image url" is a relative path (preferred) or a full URL.
+
+
+```markdown
+![Alt Text](image url){: class="img-responsive" }
+```
+
+For the logo, we don't need an "Alt Text" and the image is sitting in the top level directory, so we use:
+
+```markdown
+![](us-ea-centra-logo.png){: class="img-responsive" }
+```
+
+
 
 # Jekyll-Bootstrap
 
