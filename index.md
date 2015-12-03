@@ -11,3 +11,4 @@ description: ""
 
 The kickoff meeting for the CENTRA activities is scheduled to take place in March 2016 in Taiwan.
 
+![](500px-cecea-logo.png){: class="img-responsive" } ![](500px-centra-logo.png){: class="img-responsive" } ![](500px-nict-logo.png){: class="img-responsive" }
