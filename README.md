@@ -83,17 +83,17 @@ This is a link to the [ACIS website](http://acis.ufl.edu).
 
 ## Images
 
-An image can be added with the following syntax, where the "Alt Text" is optional and the "image url" is a relative path (preferred) or a full URL.
+Once an image has been added to the repo, it can be added to the page with the following syntax, where the "Alt Text" is optional and the "image url" is a relative path (preferred) or a full URL:
 
 
 ```markdown
-![Alt Text](image url){: class="img-responsive" }
+![Alt Text](image url)
 ```
 
-For the logo, we don't need an "Alt Text" and the image is sitting in the top level directory, so we use:
+Take the main logo as an example. We don't need an "Alt Text" in this case (Accessibility standards) and the image is sitting in the top level directory so we don't need any path information. We want the image to resize automatically on small screens and mobile so we use the img-responsive class provided by Bootstrap. Our source image was a little big so we want to set the maximum width to 1000px. Thus, we use a combination of Markdown with additional html embedded immediately after:
 
 ```markdown
-![](us-ea-centra-logo.png){: class="img-responsive" }
+![](us-ea-centra-logo.png){: class="img-responsive" width="1000px"}
 ```
 
 
