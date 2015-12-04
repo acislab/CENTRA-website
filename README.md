@@ -83,7 +83,7 @@ This is a link to the [ACIS website](http://acis.ufl.edu).
 
 ## Images
 
-Once an image has been added to the repo, it can be added to the page with the following syntax, where the "Alt Text" is optional and the "image url" is a relative path (preferred) or a full URL:
+Once an image has been added to the repo, it can be included in a page with the following syntax, where the "Alt Text" is optional and the "image url" is a relative path (preferred) or a full URL:
 
 
 ```markdown
