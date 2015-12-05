@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: ""
 description: ""
 ---
 
@@ -23,6 +23,6 @@ TBA
 
 ## Funding
 
-CENTRA is funded in the USA by the US National Science Foundation (NSF). CENTRA partners include the Center of Excellence (CoE) on Enablement of Cyberinfrastructure Applications in Taiwan funded by the Ministry of Science and Technology (MOST) of Taiwan, and the ASEAN International Virtual Organization (IVO) funded by the National Institute of Information and Communications Technologies (NICT) of Japan.
+CENTRA is funded in the USA by the US National Science Foundation (NSF). CENTRA partners include the Center of Excellence for Cyber-Enablement of Applications (CECEA) in Taiwan funded by the Ministry of Science and Technology (MOST) of Taiwan, and the ASEAN International Virtual Organization (IVO) funded by the National Institute of Information and Communications Technologies (NICT) of Japan.
 
 
