@@ -1,5 +1,13 @@
 # US-EA CENTRA website
 
+**THIS REPOSITORY IS DEPRECATED**
+
+The new domain is http://www.globalcentra.org and the index here rolls over to it.
+
+Age this repository before deleting, say until June 2016.
+
+** /DEPRECATION WARNING **
+
 http://useacentra.org/
 
 ## To Update Content:
